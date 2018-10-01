@@ -17,7 +17,7 @@
 					<include name="verifyComparingDifferentScreenshots"></include> -->
 					<!-- <include name="verifyComparingTextFromDifferentURLs"></include> -->
 					<include name="verifyResettingPasswordEmailReceived"></include>
-					<include name="verifyResettingPasswordLinkInEmail"></include> 
+					<!-- <include name="verifyResettingPasswordLinkInEmail"></include>  -->
 				</methods>
 			</class>
 		</classes>
