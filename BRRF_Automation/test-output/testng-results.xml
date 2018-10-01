@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BRRF_BVT_SUITE" duration-ms="292164" started-at="2018-09-27T13:44:58Z" finished-at="2018-09-27T13:49:50Z">
+    <groups>
+    </groups>
+    <test name="BVT_SUITE" duration-ms="292164" started-at="2018-09-27T13:44:58Z" finished-at="2018-09-27T13:49:50Z">
+      <class name="com.brrf.bvttest.test.BVT_Suite_Tests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.brrf.bvttest.test.BVT_Suite_Tests@37d31475]" name="setUp" is-config="true" duration-ms="4682" started-at="2018-09-27T19:14:58Z" finished-at="2018-09-27T19:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyResettingPasswordEmailReceived()[pri:0, instance:com.brrf.bvttest.test.BVT_Suite_Tests@37d31475]" name="verifyResettingPasswordEmailReceived" duration-ms="179047" started-at="2018-09-27T19:15:02Z" finished-at="2018-09-27T19:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResettingPasswordEmailReceived -->
+        <test-method status="PASS" signature="verifyResettingPasswordLinkInEmail()[pri:0, instance:com.brrf.bvttest.test.BVT_Suite_Tests@37d31475]" name="verifyResettingPasswordLinkInEmail" duration-ms="104939" started-at="2018-09-27T19:18:01Z" finished-at="2018-09-27T19:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResettingPasswordLinkInEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.brrf.bvttest.test.BVT_Suite_Tests@37d31475]" name="tearDown" is-config="true" duration-ms="3471" started-at="2018-09-27T19:19:46Z" finished-at="2018-09-27T19:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.brrf.bvttest.test.BVT_Suite_Tests -->
+    </test> <!-- BVT_SUITE -->
+  </suite> <!-- BRRF_BVT_SUITE -->
+</testng-results>

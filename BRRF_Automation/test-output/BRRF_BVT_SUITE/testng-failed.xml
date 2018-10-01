@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BRRF_BVT_SUITE]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="BVT_SUITE(failed)">
+    <classes>
+      <class name="com.brrf.bvttest.test.BVT_Suite_Tests">
+        <methods>
+          <include name="verifyResettingPasswordLinkInEmail"/>
+          <include name="verifyResettingPasswordEmailReceived"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.brrf.bvttest.test.BVT_Suite_Tests -->
+    </classes>
+  </test> <!-- BVT_SUITE(failed) -->
+</suite> <!-- Failed suite [BRRF_BVT_SUITE] -->

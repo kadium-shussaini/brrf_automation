@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BRRF_BVT_SUITE">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="BVT_SUITE">
+		<classes>
+			<class name="com.brrf.bvttest.test.BVT_Suite_Tests">
+				<methods>
+					<!-- Login -->
+					<!-- <include name="verifyValidLoginToUserManagement"></include> -->
+					<!-- Homepage -->
+					<!-- <include name="verifyLoggingOutFromUserManagement"></include>
+					<include name="verifyComparingSameScreenshots"></include>
+					<include name="verifyComparingDifferentScreenshots"></include> -->
+					<!-- <include name="verifyComparingTextFromDifferentURLs"></include> -->
+					<include name="verifyResettingPasswordEmailReceived"></include>
+					<include name="verifyResettingPasswordLinkInEmail"></include> 
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

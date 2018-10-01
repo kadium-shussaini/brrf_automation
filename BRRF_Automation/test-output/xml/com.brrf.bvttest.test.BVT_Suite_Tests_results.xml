@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BVT_SUITE"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="283.986">
+  <properties />
+  
+  
+            <testcase name="verifyResettingPasswordEmailReceived" time="179.047" classname="com.brrf.bvttest.test.BVT_Suite_Tests" />
+                <testcase name="verifyResettingPasswordLinkInEmail" time="104.939" classname="com.brrf.bvttest.test.BVT_Suite_Tests" />
+      
+</testsuite>
