@@ -10,13 +10,13 @@
 			<class name="com.brrf.bvttest.test.BVT_Suite_Tests">
 				<methods>
 					<!-- Login -->
-					<!-- <include name="verifyValidLoginToUserManagement"></include> -->
+					<include name="verifyValidLoginToUserManagement"></include>
 					<!-- Homepage -->
 					<!-- <include name="verifyLoggingOutFromUserManagement"></include>
 					<include name="verifyComparingSameScreenshots"></include>
 					<include name="verifyComparingDifferentScreenshots"></include> -->
 					<!-- <include name="verifyComparingTextFromDifferentURLs"></include> -->
-					<include name="verifyResettingPasswordEmailReceived"></include>
+					<!-- <include name="verifyResettingPasswordEmailReceived"></include> -->
 					<!-- <include name="verifyResettingPasswordLinkInEmail"></include>  -->
 				</methods>
 			</class>
